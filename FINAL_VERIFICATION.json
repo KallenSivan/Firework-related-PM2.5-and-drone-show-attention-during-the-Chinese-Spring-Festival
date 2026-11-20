@@ -1,0 +1,162 @@
+{
+  "verified_at": "2026-11-20T14:46:54",
+  "scope": "Supplied downstream data/code and the authorized corrected Queen Figure 2; not a new training or NLP validation run",
+  "non_queen_calculation_settings_match_original": true,
+  "only_non_queen_script_adaptations": [
+    "Package input/output paths",
+    "Necessary CSV encoding conversion"
+  ],
+  "original_scripts_independently_executed": [
+    "01_moran_updated_B.py",
+    "03_gwr_annual_firework.py",
+    "05_ols_pooled_2023_2024.py",
+    "06_ols_window_split.py"
+  ],
+  "non_queen_tables_checked": 14,
+  "largest_result_numeric_difference": 4.697631172945194e-15,
+  "original_gwr_diagnostic_csv_byte_identical": true,
+  "original_gwr_diagnostic_sha256": "85bee5e79421197bef73b3fb5f32470bc45fc53fffcd472026c44e421962a366",
+  "reported_residual_p_knn8": {
+    "2023": 0.059,
+    "2024": 0.001
+  },
+  "diagnostic_permutations": 999,
+  "diagnostic_seed": null,
+  "diagnostic_bandwidths": {
+    "2023": 23,
+    "2024": 25
+  },
+  "global_moran_no_added_seed": true,
+  "notebook_cell_sources_unchanged": true,
+  "archived_cv_summary_byte_identical": true,
+  "training_and_cv_rerun": false,
+  "raw_and_spatial_files_unchanged": {
+    "files_checked": 21,
+    "sha256_all_match": true,
+    "baseline": "Pre-Queen-fix package manifest archived outside release"
+  },
+  "queen_lisa_independent_check": {
+    "2020": {
+      "total": 375,
+      "tested": 372,
+      "islands": 3,
+      "counts": {
+        "Not Significant": 184,
+        "Low-Low": 104,
+        "High-High": 80,
+        "Low-High": 4,
+        "Not tested (island)": 3
+      },
+      "independent_statistics_and_weights_match": true
+    },
+    "2021": {
+      "total": 375,
+      "tested": 372,
+      "islands": 3,
+      "counts": {
+        "Not Significant": 182,
+        "Low-Low": 106,
+        "High-High": 82,
+        "Not tested (island)": 3,
+        "Low-High": 1,
+        "High-Low": 1
+      },
+      "independent_statistics_and_weights_match": true
+    },
+    "2022": {
+      "total": 375,
+      "tested": 372,
+      "islands": 3,
+      "counts": {
+        "Not Significant": 202,
+        "Low-Low": 84,
+        "High-High": 80,
+        "Not tested (island)": 3,
+        "Low-High": 3,
+        "High-Low": 3
+      },
+      "independent_statistics_and_weights_match": true
+    },
+    "2023": {
+      "total": 375,
+      "tested": 372,
+      "islands": 3,
+      "counts": {
+        "Not Significant": 177,
+        "High-High": 98,
+        "Low-Low": 95,
+        "Not tested (island)": 3,
+        "Low-High": 2
+      },
+      "independent_statistics_and_weights_match": true
+    },
+    "2024": {
+      "total": 375,
+      "tested": 372,
+      "islands": 3,
+      "counts": {
+        "Not Significant": 193,
+        "Low-Low": 89,
+        "High-High": 85,
+        "Low-High": 5,
+        "Not tested (island)": 3
+      },
+      "independent_statistics_and_weights_match": true
+    },
+    "2025": {
+      "total": 375,
+      "tested": 372,
+      "islands": 3,
+      "counts": {
+        "Not Significant": 247,
+        "High-High": 68,
+        "Low-Low": 53,
+        "High-Low": 3,
+        "Not tested (island)": 3,
+        "Low-High": 1
+      },
+      "independent_statistics_and_weights_match": true
+    }
+  },
+  "figure": {
+    "size": [
+      4036,
+      1964
+    ],
+    "dpi": [
+      299.9994,
+      299.9994
+    ],
+    "package_and_delivery_bytes_identical": true,
+    "independent_redraw_bytes_identical": true,
+    "sha256": "efedf2a6fe94b5e5928ccf8f984b33ab6e7827c76a78b3038dfffab62cf6331d"
+  },
+  "non_queen_results_changed_by_this_verification": false,
+  "submission_conditions": {
+    "figure2_png_verified": true,
+    "data_package_downstream_checks_passed": true,
+    "local_manuscript_not_modified": true,
+    "eproof_needs_corrected_figure2_counts_caption_and_image": true,
+    "github_large_file_requires_lfs_or_release_asset": [
+      {
+        "file": "raw/hourly/全部年份_完整地级单位.csv",
+        "bytes": 1892039885
+      }
+    ],
+    "public_claim_scope": "Supporting downstream data/code; complete raw social-media posts and independent manual validation labels are not included"
+  },
+  "historical_result_provenance": "Original diagnostic and archived CV files are preserved. Other downstream outputs are verified against independent original-code executions; this does not claim recovered historical file checksums for all outputs.",
+  "release_panel_scope_update": {
+    "file": "城市年面板_2023_2024.csv",
+    "rows": 625,
+    "year_rows": {
+      "2023": 291,
+      "2024": 334
+    },
+    "retained_row_values_and_order_exact": true,
+    "script_changes": "Input filename only in 03/04/05/06; all analysis settings unchanged",
+    "figure2_2025_retained": true,
+    "all_existing_result_files_unchanged": true,
+    "complete_panel_archived_outside_package": true
+  }
+}

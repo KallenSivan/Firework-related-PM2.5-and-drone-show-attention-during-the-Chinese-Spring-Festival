@@ -1,0 +1,50 @@
+[
+  {
+    "file": "00_xgboost_firework_masking.py",
+    "submitted_sha256": "62e207cd45b73104208368021fd3f28f8a7e4ccec7f1ab22b332e7dbaa58385d",
+    "release_sha256": "107ba4e393582b6015f9660dda32aff853f08fa3512af048f383fd7209564f83",
+    "change": "Package paths and necessary CSV encoding only; original calculation settings retained"
+  },
+  {
+    "file": "01_moran_updated_B.py",
+    "submitted_sha256": "74f94717242f8e1a71422f7d8e2566ed9330ed4a82a1fdbf93313cec79bc6591",
+    "release_sha256": "c2adef63dc25b009ad21c175d5a8dd81a205986e277fbc7044d598ac6051aea1",
+    "change": "Package paths and necessary CSV encoding only; original calculation settings retained"
+  },
+  {
+    "file": "02_lisa_updated_B.py",
+    "submitted_sha256": "7c04c702c489bad3907902240b721dd3b1ac5c8de2ec3cc349e1a21aaaaabebb",
+    "release_sha256": "7c04c702c489bad3907902240b721dd3b1ac5c8de2ec3cc349e1a21aaaaabebb",
+    "pre_fix_submitted_sha256": "a8ae526c4c3d92574b523e66002cc67fe180d40668117b9395fa385d2d8c8609",
+    "change": "Queen enforcement, UTF8 logging, seed42, island masking; original preserved in external backup"
+  },
+  {
+    "file": "03_gwr_annual_firework.py",
+    "submitted_sha256": "003e5f0e741428b03aa44a22cdcba729fb54ebc3339c822399a181a158801844",
+    "release_sha256": "173802b8acadaa99461588761c2dcfdf9ac18a2105590217fe9d2cc5596ad07f",
+    "change": "Package paths and necessary CSV encoding only; original calculation settings retained; input filename updated to 2023–2024-only regression panel (retained values unchanged)"
+  },
+  {
+    "file": "04_gwr_diagnostics.py",
+    "submitted_sha256": "74d7375fa26432382c8784a15f7bc5ddc3b28fdf0c230647b7a03dd5e7333483",
+    "release_sha256": "1073b634248821eb171664afdbb382d10bd8799500d22cf0f8b789787ab60ab0",
+    "change": "Package paths and necessary CSV encoding only; original calculation settings retained; input filename updated to 2023–2024-only regression panel (retained values unchanged)"
+  },
+  {
+    "file": "05_ols_pooled_2023_2024.py",
+    "submitted_sha256": "4451de740c241f7f37d2f27735027c23f3de7b6fe95d95981a660cee4bf27da1",
+    "release_sha256": "7f907587765291edab48086b4b8037a7f6bf10a500dabc651b407f123d703197",
+    "change": "Package paths and necessary CSV encoding only; original calculation settings retained; input filename updated to 2023–2024-only regression panel (retained values unchanged)"
+  },
+  {
+    "file": "06_ols_window_split.py",
+    "submitted_sha256": "e70c5995ebf7f816101ceb2c778319a984d0097070571a70cf3e29301cd2abc5",
+    "release_sha256": "d2aaa9bf1105a5fe8f90d2960b5eeda960e72395eb62a7c13736e0f8ad52b58b",
+    "change": "Package paths and necessary CSV encoding only; original calculation settings retained; input filename updated to 2023–2024-only regression panel (retained values unchanged)"
+  },
+  {
+    "file": "07_figure2_queen.py",
+    "release_sha256": "acdc955a99a441465c5f8eb8c0a2c6d530f195074759b31a4e6f585e13299b57",
+    "change": "Portable Figure 2 using original submitted map rendering/configuration and corrected Queen output"
+  }
+]

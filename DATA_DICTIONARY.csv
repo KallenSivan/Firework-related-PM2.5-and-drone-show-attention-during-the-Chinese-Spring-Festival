@@ -1,0 +1,14 @@
+﻿variable,definition,units
+city,City identifier,text
+year / festival_year,Calendar year assigned to festival,year
+fireworks_pm25_mean,Mean of positive hourly observed-minus-predicted residuals; negative hourly values set to zero before averaging,ug/m3
+pm25_mean / PM2.5,Observed PM2.5 city-period mean / hourly concentration,ug/m3
+PM2.5_pred,Model reference concentration,ug/m3
+PM2.5_diff,Signed observed-minus-predicted residual,ug/m3
+Records,Online-attention/event-record count; 0 treated as missing in submitted regressions,count
+pd,Population density; source units require provider confirmation,source units
+Green,Green-space measure; source units require provider confirmation,source units
+NTL,Nighttime-light intensity,source index
+Records_log1p_z_coef,Local coefficient per one within-year SD of ln(1+Records),ug/m3 per SD
+Records_log1p_z_sig,Multiplicity-adjusted local significance flag,boolean
+is_interpolated,Spatial unit mean assigned by IDW rather than observed,boolean

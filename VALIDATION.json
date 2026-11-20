@@ -1,0 +1,118 @@
+{
+  "panel_rows_checked": 625,
+  "gwr": [
+    {
+      "year": 2023,
+      "N": 289,
+      "bw": 23,
+      "R2": 0.4445870424285408,
+      "adjR2": 0.3851854881464253,
+      "AICc": 2005.8622570994864,
+      "crit_t": 2.6305057795575197,
+      "coef_mean": -0.9939043926350808,
+      "coef_median": -1.3836177869787265,
+      "coef_p25": -2.2524128050373933,
+      "coef_p75": 0.2288255433972701,
+      "coef_min": -3.14857073607869,
+      "coef_max": 1.936991829472236,
+      "negative_n": 203,
+      "significant_n": 84,
+      "sig_negative_n": 84,
+      "sig_positive_n": 0
+    },
+    {
+      "year": 2024,
+      "N": 333,
+      "bw": 25,
+      "R2": 0.4062379881696908,
+      "adjR2": 0.348576300411124,
+      "AICc": 2331.544083062181,
+      "crit_t": 2.6470420116307305,
+      "coef_mean": -0.3951039110410665,
+      "coef_median": -0.4223338980287273,
+      "coef_p25": -0.7137679239392097,
+      "coef_p75": 0.128876341878266,
+      "coef_min": -3.8636019018267738,
+      "coef_max": 3.1856379283892227,
+      "negative_n": 237,
+      "significant_n": 16,
+      "sig_negative_n": 15,
+      "sig_positive_n": 1
+    }
+  ],
+  "diagnostic_rows": 56,
+  "training_rerun": false,
+  "cv_rerun": false,
+  "queen_figure2_annual_counts": [
+    {
+      "year": 2020,
+      "total": 375,
+      "tested": 372,
+      "not_tested": 3,
+      "high_high": 80,
+      "low_low": 104
+    },
+    {
+      "year": 2021,
+      "total": 375,
+      "tested": 372,
+      "not_tested": 3,
+      "high_high": 82,
+      "low_low": 106
+    },
+    {
+      "year": 2022,
+      "total": 375,
+      "tested": 372,
+      "not_tested": 3,
+      "high_high": 80,
+      "low_low": 84
+    },
+    {
+      "year": 2023,
+      "total": 375,
+      "tested": 372,
+      "not_tested": 3,
+      "high_high": 98,
+      "low_low": 95
+    },
+    {
+      "year": 2024,
+      "total": 375,
+      "tested": 372,
+      "not_tested": 3,
+      "high_high": 85,
+      "low_low": 89
+    },
+    {
+      "year": 2025,
+      "total": 375,
+      "tested": 372,
+      "not_tested": 3,
+      "high_high": 68,
+      "low_low": 53
+    }
+  ],
+  "queen_neighbor_order_and_islands_checked": true,
+  "hotspot_coldspot_city_sets_checked": true,
+  "figure2_redrawn_from_package_relative_code": true,
+  "original_figure_and_manuscript_unchanged": true,
+  "lisa_seed": 42,
+  "gwr_diagnostics_random_seed": null,
+  "gwr_diagnostics_output_origin": "Original submitted CSV, restored byte-for-byte",
+  "gwr_diagnostic_rows": 56,
+  "gwr_diagnostics_sha256": "85bee5e79421197bef73b3fb5f32470bc45fc53fffcd472026c44e421962a366",
+  "non_queen_calculations_match_original": true,
+  "global_moran_added_seed_removed": true,
+  "release_panel": {
+    "file": "城市年面板_2023_2024.csv",
+    "year_rows": {
+      "2023": 291,
+      "2024": 334
+    },
+    "removed_unused_2025_rows": 321,
+    "retained_row_values_exact": true,
+    "full_source_panel_rows": 946,
+    "existing_results_unchanged": true
+  }
+}
